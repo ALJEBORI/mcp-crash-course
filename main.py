@@ -1,9 +1,12 @@
 import asyncio
 from dotenv import load_dotenv
 import os
-
+from mcp import ClientSession, StdioServerParameters
+from mcp.client.stdio import StdioClient
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_mcp_adapters import load_mcp_tools
+from langchain.agents import create_agent
 load_dotenv()
-print("GEMINI_API_KEY:", os.getenv("GEMINI_API_KEY"))
 async def main():
     print("Hello from langchain-mcp-adapters!")
 
