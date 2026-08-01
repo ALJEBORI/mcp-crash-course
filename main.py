@@ -50,7 +50,7 @@ async def main():
             agent = create_agent(model, tools)
 
             # 5. Run a prompt to test your agent
-            user_prompt = "What is (3 + 2) times 10?" # Swap with a prompt that needs your MCP tools!
+            user_prompt = input("User Prompt like What is (3 + 2) times 10? ") # Swap with a prompt that needs your MCP tools!
             print(f"Asking Gemini: '{user_prompt}'")
             
             response = await agent.ainvoke({"messages": [HumanMessage(content=user_prompt)]})
