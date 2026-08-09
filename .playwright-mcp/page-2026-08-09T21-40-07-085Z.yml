@@ -1,0 +1,467 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img "Cursor Directory" [ref=e5]
+    - generic [ref=e6]:
+      - link "Plugins" [ref=e7] [cursor=pointer]:
+        - /url: /
+      - link "Members" [ref=e8] [cursor=pointer]:
+        - /url: /members
+      - link [ref=e9] [cursor=pointer]:
+        - /url: /plugins/new
+        - button "Submit a plugin" [ref=e10]
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - heading "Extend Cursor with community plugins." [level=1] [ref=e20]
+      - paragraph [ref=e21]:
+        - text: Discover and install plugins from
+        - link "86.2k+ developers" [ref=e22] [cursor=pointer]:
+          - /url: /members
+        - text: ", ranked by what’s trending."
+    - textbox "Search plugins..." [ref=e27]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - button "Trending" [ref=e31]
+        - button "Top" [ref=e32]
+        - button "New" [ref=e33]
+      - generic [ref=e34]:
+        - link "1 Excalidraw Architect MCP An MCP server that generates beautiful Excalidraw architecture diagrams with perfect auto-layout, stateful editing, and architecture-aware component styling. 779" [ref=e35] [cursor=pointer]:
+          - /url: /plugins/mcp-excalidraw-architect-mcp
+          - generic [ref=e36]: "1"
+          - generic [ref=e41]:
+            - generic [ref=e42]: Excalidraw Architect MCP
+            - paragraph [ref=e44]: An MCP server that generates beautiful Excalidraw architecture diagrams with perfect auto-layout, stateful editing, and architecture-aware component styling.
+          - generic [ref=e45]: "779"
+        - link "2 Dotnet Dotnet rules and best practices for Cursor 1k" [ref=e46] [cursor=pointer]:
+          - /url: /plugins/dotnet
+          - generic [ref=e47]: "2"
+          - generic [ref=e52]:
+            - generic [ref=e53]: Dotnet
+            - paragraph [ref=e55]: Dotnet rules and best practices for Cursor
+          - generic [ref=e56]: 1k
+        - link "3 i18n Agent AI-powered translation management via MCP. Translate JSON, YAML, Markdown, PO files with regional sensitivity. 70" [ref=e57] [cursor=pointer]:
+          - /url: /plugins/i18n-agent
+          - generic [ref=e58]: "3"
+          - generic [ref=e63]:
+            - generic [ref=e64]: i18n Agent
+            - paragraph [ref=e66]: AI-powered translation management via MCP. Translate JSON, YAML, Markdown, PO files with regional sensitivity.
+          - generic [ref=e67]: "70"
+        - link "4 C C rules and best practices for Cursor 2.3k" [ref=e68] [cursor=pointer]:
+          - /url: /plugins/c
+          - generic [ref=e69]: "4"
+          - generic [ref=e74]:
+            - generic [ref=e75]: C
+            - paragraph [ref=e77]: C rules and best practices for Cursor
+          - generic [ref=e78]: 2.3k
+        - link "5 SVGMaker MCP Server SVGMaker MCP Server is a powerful, AI-driven tool for generating and editing SVG graphics via natural language. It supports seamless LLM integrations (Claude, Cursor, VS Code, and more), real-time updates, secure file handling, and TypeScript support—making it ideal for developers, designers, and automation workflows. 25" [ref=e79] [cursor=pointer]:
+          - /url: /plugins/mcp-svgmaker-mcp-server
+          - generic [ref=e80]: "5"
+          - generic [ref=e85]:
+            - generic [ref=e86]: SVGMaker MCP Server
+            - paragraph [ref=e88]: SVGMaker MCP Server is a powerful, AI-driven tool for generating and editing SVG graphics via natural language. It supports seamless LLM integrations (Claude, Cursor, VS Code, and more), real-time updates, secure file handling, and TypeScript support—making it ideal for developers, designers, and automation workflows.
+          - generic [ref=e89]: "25"
+        - link "6 D Drizzle Docs MCP server that provides real-time access to all Drizzle ORM documentation pages with fuzzy search, pre-caching, and flexible content retrieval. 59" [ref=e90] [cursor=pointer]:
+          - /url: /plugins/mcp-drizzle-docs
+          - generic [ref=e91]: "6"
+          - generic [ref=e92]:
+            - generic [ref=e93]: D
+            - generic [ref=e95]:
+              - generic [ref=e96]: Drizzle Docs
+              - paragraph [ref=e98]: MCP server that provides real-time access to all Drizzle ORM documentation pages with fuzzy search, pre-caching, and flexible content retrieval.
+          - generic [ref=e99]: "59"
+        - link "7 B Builder.io Headless CMS content management. 8" [ref=e100] [cursor=pointer]:
+          - /url: /plugins/mcp-builder
+          - generic [ref=e101]: "7"
+          - generic [ref=e102]:
+            - generic [ref=e103]: B
+            - generic [ref=e105]:
+              - generic [ref=e106]: Builder.io
+              - paragraph [ref=e108]: Headless CMS content management.
+          - generic [ref=e109]: "8"
+        - link "8 R Ralph Loop Continuous self-referential AI loops for iterative development, implementing the Ralph Wiggum technique. Run the agent in a while-true loop with the same prompt until task completion. 92" [ref=e110] [cursor=pointer]:
+          - /url: /plugins/ralph-loop
+          - generic [ref=e111]: "8"
+          - generic [ref=e112]:
+            - generic [ref=e113]: R
+            - generic [ref=e115]:
+              - generic [ref=e116]: Ralph Loop
+              - paragraph [ref=e118]: Continuous self-referential AI loops for iterative development, implementing the Ralph Wiggum technique. Run the agent in a while-true loop with the same prompt until task completion.
+          - generic [ref=e119]: "92"
+        - link "9 S Sanity Create, query, and manage Sanity content, releases, datasets, and schemas. 1.4k" [ref=e120] [cursor=pointer]:
+          - /url: /plugins/mcp-sanity
+          - generic [ref=e121]: "9"
+          - generic [ref=e122]:
+            - generic [ref=e123]: S
+            - generic [ref=e125]:
+              - generic [ref=e126]: Sanity
+              - paragraph [ref=e128]: Create, query, and manage Sanity content, releases, datasets, and schemas.
+          - generic [ref=e129]: 1.4k
+        - link "10 Real Estate MCP Server Access property listings, home values, neighborhood data, and real estate market trends from Zillow and Realtor.com. Powers AI agents with property intelligence for investment analysis and market research. 5" [ref=e130] [cursor=pointer]:
+          - /url: /plugins/real-estate-mcp-server-1
+          - generic [ref=e131]: "10"
+          - generic [ref=e136]:
+            - generic [ref=e137]: Real Estate MCP Server
+            - paragraph [ref=e139]: Access property listings, home values, neighborhood data, and real estate market trends from Zillow and Realtor.com. Powers AI agents with property intelligence for investment analysis and market research.
+          - generic [ref=e140]: "5"
+        - 'link "11 Phantom MCP Server Phantom MCP Server gives AI agents a crypto wallet. Built by the Phantom team, it enables agents to sign messages, sign and send transactions, transfer tokens, buy/swap tokens, and retrieve wallet addresses across Solana and EVM chains — directly from Cursor without leaving the editor. Key capabilities: - Sign messages and transactions on Solana and EVM - Transfer SOL, SPL tokens, and EVM tokens - Buy and swap tokens via Phantom''s embedded swap - Retrieve wallet addresses across all supported chains - Non-custodial: connects to a user''s existing Phantom wallet Official npm package: `@phantom/mcp-server` 8" [ref=e141] [cursor=pointer]':
+          - /url: /plugins/phantom-mcp-server
+          - generic [ref=e142]: "11"
+          - generic [ref=e147]:
+            - generic [ref=e148]: Phantom MCP Server
+            - paragraph [ref=e150]: "Phantom MCP Server gives AI agents a crypto wallet. Built by the Phantom team, it enables agents to sign messages, sign and send transactions, transfer tokens, buy/swap tokens, and retrieve wallet addresses across Solana and EVM chains — directly from Cursor without leaving the editor. Key capabilities: - Sign messages and transactions on Solana and EVM - Transfer SOL, SPL tokens, and EVM tokens - Buy and swap tokens via Phantom's embedded swap - Retrieve wallet addresses across all supported chains - Non-custodial: connects to a user's existing Phantom wallet Official npm package: `@phantom/mcp-server`"
+          - generic [ref=e151]: "8"
+        - link "12 C cursor-md-mindmaps Create hierarchical Markdown mindmaps and render offline interactive HTML with markmap. 4" [ref=e152] [cursor=pointer]:
+          - /url: /plugins/cursor-md-mindmaps
+          - generic [ref=e153]: "12"
+          - generic [ref=e154]:
+            - generic [ref=e155]: C
+            - generic [ref=e157]:
+              - generic [ref=e158]: cursor-md-mindmaps
+              - paragraph [ref=e160]: Create hierarchical Markdown mindmaps and render offline interactive HTML with markmap.
+          - generic [ref=e161]: "4"
+        - link "13 Z Zendesk MCP Server by Swifteq Zendesk MCP Server serves as a secure, real-time bridge that lets Cursor fetch, read, and analyze ticket data on demand. 19" [ref=e162] [cursor=pointer]:
+          - /url: /plugins/zendesk-mcp-server-by-swifteq
+          - generic [ref=e163]: "13"
+          - generic [ref=e164]:
+            - generic [ref=e165]: Z
+            - generic [ref=e167]:
+              - generic [ref=e168]: Zendesk MCP Server by Swifteq
+              - paragraph [ref=e170]: Zendesk MCP Server serves as a secure, real-time bridge that lets Cursor fetch, read, and analyze ticket data on demand.
+          - generic [ref=e171]: "19"
+        - link "14 S Signoz MCP Server The Signoz MCP Server lets you connect developer tools like Cursor or Claude Desktop to your Signoz instance. It's an open-source project maintained by DrDroid (not affiliated with Signoz), and allows you to query logs, dashboards, metrics, and more — making observability data directly accessible within your IDE or AI assistant. 8" [ref=e172] [cursor=pointer]:
+          - /url: /plugins/mcp-signoz-mcp-server
+          - generic [ref=e173]: "14"
+          - generic [ref=e174]:
+            - generic [ref=e175]: S
+            - generic [ref=e177]:
+              - generic [ref=e178]: Signoz MCP Server
+              - paragraph [ref=e180]: The Signoz MCP Server lets you connect developer tools like Cursor or Claude Desktop to your Signoz instance. It's an open-source project maintained by DrDroid (not affiliated with Signoz), and allows you to query logs, dashboards, metrics, and more — making observability data directly accessible within your IDE or AI assistant.
+          - generic [ref=e181]: "8"
+        - 'link "15 openregistry Real-time direct access to unmodified data and raw filings of 30 official government registries via MCP. Tools: search companies, get profiles, officers, shareholders, charges, filings, and financial-statement documents. Covers UK Companies House, Ireland CRO, France RNE, Spain BORME, Italy InfoCamere, Norway Brreg, Poland KRS, Netherlands KVK, Belgium KBO, Switzerland Zefix, Finland, Czechia, Korea, Taiwan, New Zealand, Cayman Island, Australia, Canada and a lot more. 5" [ref=e182] [cursor=pointer]':
+          - /url: /plugins/openregistry
+          - generic [ref=e183]: "15"
+          - generic [ref=e188]:
+            - generic [ref=e189]: openregistry
+            - paragraph [ref=e191]: "Real-time direct access to unmodified data and raw filings of 30 official government registries via MCP. Tools: search companies, get profiles, officers, shareholders, charges, filings, and financial-statement documents. Covers UK Companies House, Ireland CRO, France RNE, Spain BORME, Italy InfoCamere, Norway Brreg, Poland KRS, Netherlands KVK, Belgium KBO, Switzerland Zefix, Finland, Czechia, Korea, Taiwan, New Zealand, Cayman Island, Australia, Canada and a lot more."
+          - generic [ref=e192]: "5"
+        - link "16 L LaunchDarkly The LaunchDarkly MCP server lets you set up and manage feature flags and AI Configs from within your integrated development environment (IDE) or AI client 11" [ref=e193] [cursor=pointer]:
+          - /url: /plugins/mcp-launchdarkly
+          - generic [ref=e194]: "16"
+          - generic [ref=e195]:
+            - generic [ref=e196]: L
+            - generic [ref=e198]:
+              - generic [ref=e199]: LaunchDarkly
+              - paragraph [ref=e201]: The LaunchDarkly MCP server lets you set up and manage feature flags and AI Configs from within your integrated development environment (IDE) or AI client
+          - generic [ref=e202]: "11"
+        - 'link "17 C Cenogram - Polish Real Estate Prices & Parcel Data MCP server for Polish real estate: 8M+ transaction prices from notarial deeds (RCN registry, not listings), plus per-parcel context by cadastral ID - zoning, flood risk, heritage, building permits, agricultural land and transit 1" [ref=e203] [cursor=pointer]':
+          - /url: /plugins/cenogram---polish-real-estate-prices-parcel-data
+          - generic [ref=e204]: "17"
+          - generic [ref=e205]:
+            - generic [ref=e206]: C
+            - generic [ref=e208]:
+              - generic [ref=e209]: Cenogram - Polish Real Estate Prices & Parcel Data
+              - paragraph [ref=e211]: "MCP server for Polish real estate: 8M+ transaction prices from notarial deeds (RCN registry, not listings), plus per-parcel context by cadastral ID - zoning, flood risk, heritage, building permits, agricultural land and transit"
+          - generic [ref=e212]: "1"
+        - link "18 A arxivsub-mcp arxivsub-mcp plugin for Cursor 1" [ref=e213] [cursor=pointer]:
+          - /url: /plugins/arxivsub-mcp
+          - generic [ref=e214]: "18"
+          - generic [ref=e215]:
+            - generic [ref=e216]: A
+            - generic [ref=e218]:
+              - generic [ref=e219]: arxivsub-mcp
+              - paragraph [ref=e221]: arxivsub-mcp plugin for Cursor
+          - generic [ref=e222]: "1"
+        - link "19 Next.js Next.js rules and best practices for Cursor 38.8k" [ref=e223] [cursor=pointer]:
+          - /url: /plugins/nextjs
+          - generic [ref=e224]: "19"
+          - generic [ref=e229]:
+            - generic [ref=e230]: Next.js
+            - paragraph [ref=e232]: Next.js rules and best practices for Cursor
+          - generic [ref=e233]: 38.8k
+        - link "20 Front End Front End rules and best practices for Cursor 33.3k" [ref=e234] [cursor=pointer]:
+          - /url: /plugins/front-end
+          - generic [ref=e235]: "20"
+          - generic [ref=e240]:
+            - generic [ref=e241]: Front End
+            - paragraph [ref=e243]: Front End rules and best practices for Cursor
+          - generic [ref=e244]: 33.3k
+        - link "21 Expo Expo rules and best practices for Cursor 17.9k" [ref=e245] [cursor=pointer]:
+          - /url: /plugins/expo
+          - generic [ref=e246]: "21"
+          - generic [ref=e251]:
+            - generic [ref=e252]: Expo
+            - paragraph [ref=e254]: Expo rules and best practices for Cursor
+          - generic [ref=e255]: 17.9k
+        - link "22 Fastapi Fastapi rules and best practices for Cursor 12.7k" [ref=e256] [cursor=pointer]:
+          - /url: /plugins/fastapi
+          - generic [ref=e257]: "22"
+          - generic [ref=e262]:
+            - generic [ref=e263]: Fastapi
+            - paragraph [ref=e265]: Fastapi rules and best practices for Cursor
+          - generic [ref=e266]: 12.7k
+        - link "23 Java Java rules and best practices for Cursor 8.9k" [ref=e267] [cursor=pointer]:
+          - /url: /plugins/java
+          - generic [ref=e268]: "23"
+          - generic [ref=e273]:
+            - generic [ref=e274]: Java
+            - paragraph [ref=e276]: Java rules and best practices for Cursor
+          - generic [ref=e277]: 8.9k
+        - link "24 Data Analyst Data Analyst rules and best practices for Cursor 8.2k" [ref=e278] [cursor=pointer]:
+          - /url: /plugins/data-analyst
+          - generic [ref=e279]: "24"
+          - generic [ref=e284]:
+            - generic [ref=e285]: Data Analyst
+            - paragraph [ref=e287]: Data Analyst rules and best practices for Cursor
+          - generic [ref=e288]: 8.2k
+        - link "25 Laravel Laravel rules and best practices for Cursor 8.1k" [ref=e289] [cursor=pointer]:
+          - /url: /plugins/laravel
+          - generic [ref=e290]: "25"
+          - generic [ref=e295]:
+            - generic [ref=e296]: Laravel
+            - paragraph [ref=e298]: Laravel rules and best practices for Cursor
+          - generic [ref=e299]: 8.1k
+        - link "26 Flutter Flutter rules and best practices for Cursor 7k" [ref=e300] [cursor=pointer]:
+          - /url: /plugins/flutter
+          - generic [ref=e301]: "26"
+          - generic [ref=e306]:
+            - generic [ref=e307]: Flutter
+            - paragraph [ref=e309]: Flutter rules and best practices for Cursor
+          - generic [ref=e310]: 7k
+        - link "27 Nuxtjs Nuxtjs rules and best practices for Cursor 6.1k" [ref=e311] [cursor=pointer]:
+          - /url: /plugins/nuxtjs
+          - generic [ref=e312]: "27"
+          - generic [ref=e317]:
+            - generic [ref=e318]: Nuxtjs
+            - paragraph [ref=e320]: Nuxtjs rules and best practices for Cursor
+          - generic [ref=e321]: 6.1k
+        - link "28 Chrome Extension Chrome Extension rules and best practices for Cursor 5.9k" [ref=e322] [cursor=pointer]:
+          - /url: /plugins/chrome-extension
+          - generic [ref=e323]: "28"
+          - generic [ref=e328]:
+            - generic [ref=e329]: Chrome Extension
+            - paragraph [ref=e331]: Chrome Extension rules and best practices for Cursor
+          - generic [ref=e332]: 5.9k
+        - link "29 Django Django rules and best practices for Cursor 5.5k" [ref=e333] [cursor=pointer]:
+          - /url: /plugins/django
+          - generic [ref=e334]: "29"
+          - generic [ref=e339]:
+            - generic [ref=e340]: Django
+            - paragraph [ref=e342]: Django rules and best practices for Cursor
+          - generic [ref=e343]: 5.5k
+        - link "30 Nestjs Nestjs rules and best practices for Cursor 5.5k" [ref=e344] [cursor=pointer]:
+          - /url: /plugins/nestjs
+          - generic [ref=e345]: "30"
+          - generic [ref=e350]:
+            - generic [ref=e351]: Nestjs
+            - paragraph [ref=e353]: Nestjs rules and best practices for Cursor
+          - generic [ref=e354]: 5.5k
+        - link "31 Deep Learning Deep Learning rules and best practices for Cursor 5.2k" [ref=e355] [cursor=pointer]:
+          - /url: /plugins/deep-learning
+          - generic [ref=e356]: "31"
+          - generic [ref=e361]:
+            - generic [ref=e362]: Deep Learning
+            - paragraph [ref=e364]: Deep Learning rules and best practices for Cursor
+          - generic [ref=e365]: 5.2k
+        - link "32 Go Go rules and best practices for Cursor 4.8k" [ref=e366] [cursor=pointer]:
+          - /url: /plugins/go
+          - generic [ref=e367]: "32"
+          - generic [ref=e372]:
+            - generic [ref=e373]: Go
+            - paragraph [ref=e375]: Go rules and best practices for Cursor
+          - generic [ref=e376]: 4.8k
+        - link "33 A anon.li Create, edit and delete email aliases, file shares & forms directly from Cursor. Protect your online privacy with anon.li - Privacy by default. Not by request. 3.2k" [ref=e377] [cursor=pointer]:
+          - /url: /plugins/anonli
+          - generic [ref=e378]: "33"
+          - generic [ref=e379]:
+            - generic [ref=e380]: A
+            - generic [ref=e382]:
+              - generic [ref=e383]: anon.li
+              - paragraph [ref=e385]: Create, edit and delete email aliases, file shares & forms directly from Cursor. Protect your online privacy with anon.li - Privacy by default. Not by request.
+          - generic [ref=e386]: 3.2k
+        - link "34 Monorepo Tamagui Monorepo Tamagui rules and best practices for Cursor 4k" [ref=e387] [cursor=pointer]:
+          - /url: /plugins/monorepo-tamagui
+          - generic [ref=e388]: "34"
+          - generic [ref=e393]:
+            - generic [ref=e394]: Monorepo Tamagui
+            - paragraph [ref=e396]: Monorepo Tamagui rules and best practices for Cursor
+          - generic [ref=e397]: 4k
+        - link "35 Python Python rules and best practices for Cursor 3.6k" [ref=e398] [cursor=pointer]:
+          - /url: /plugins/python
+          - generic [ref=e399]: "35"
+          - generic [ref=e404]:
+            - generic [ref=e405]: Python
+            - paragraph [ref=e407]: Python rules and best practices for Cursor
+          - generic [ref=e408]: 3.6k
+        - link "36 Flask Flask rules and best practices for Cursor 3.5k" [ref=e409] [cursor=pointer]:
+          - /url: /plugins/flask
+          - generic [ref=e410]: "36"
+          - generic [ref=e415]:
+            - generic [ref=e416]: Flask
+            - paragraph [ref=e418]: Flask rules and best practices for Cursor
+          - generic [ref=e419]: 3.5k
+        - link "37 React Native React Native rules and best practices for Cursor 3.4k" [ref=e420] [cursor=pointer]:
+          - /url: /plugins/react-native
+          - generic [ref=e421]: "37"
+          - generic [ref=e426]:
+            - generic [ref=e427]: React Native
+            - paragraph [ref=e429]: React Native rules and best practices for Cursor
+          - generic [ref=e430]: 3.4k
+        - link "38 Web Development Web Development rules and best practices for Cursor 2.9k" [ref=e431] [cursor=pointer]:
+          - /url: /plugins/web-development
+          - generic [ref=e432]: "38"
+          - generic [ref=e437]:
+            - generic [ref=e438]: Web Development
+            - paragraph [ref=e440]: Web Development rules and best practices for Cursor
+          - generic [ref=e441]: 2.9k
+        - link "39 Angular Angular rules and best practices for Cursor 2.5k" [ref=e442] [cursor=pointer]:
+          - /url: /plugins/angular
+          - generic [ref=e443]: "39"
+          - generic [ref=e448]:
+            - generic [ref=e449]: Angular
+            - paragraph [ref=e451]: Angular rules and best practices for Cursor
+          - generic [ref=e452]: 2.5k
+        - link "40 G GitHub This server provides integration with Github's issue tracking system through MCP, allowing LLMs to interact with Github issues. 8.5k" [ref=e453] [cursor=pointer]:
+          - /url: /plugins/mcp-github
+          - generic [ref=e454]: "40"
+          - generic [ref=e455]:
+            - generic [ref=e456]: G
+            - generic [ref=e458]:
+              - generic [ref=e459]: GitHub
+              - paragraph [ref=e461]: This server provides integration with Github's issue tracking system through MCP, allowing LLMs to interact with Github issues.
+          - generic [ref=e462]: 8.5k
+        - link "41 S Supabase This is an MCP server for PostgREST. It allows LLMs perform database queries and operations on Postgres databases via PostgREST. 8k" [ref=e463] [cursor=pointer]:
+          - /url: /plugins/mcp-supabase
+          - generic [ref=e464]: "41"
+          - generic [ref=e465]:
+            - generic [ref=e466]: S
+            - generic [ref=e468]:
+              - generic [ref=e469]: Supabase
+              - paragraph [ref=e471]: This is an MCP server for PostgREST. It allows LLMs perform database queries and operations on Postgres databases via PostgREST.
+          - generic [ref=e472]: 8k
+        - link "42 Gastby Gastby rules and best practices for Cursor 2k" [ref=e473] [cursor=pointer]:
+          - /url: /plugins/gastby
+          - generic [ref=e474]: "42"
+          - generic [ref=e479]:
+            - generic [ref=e480]: Gastby
+            - paragraph [ref=e482]: Gastby rules and best practices for Cursor
+          - generic [ref=e483]: 2k
+        - link "43 V Vercel Integrates with Vercel's serverless infrastructure to provide a lightweight endpoint for AI model interactions and tasks like chatbots, content generation, and data analysis. 6.8k" [ref=e484] [cursor=pointer]:
+          - /url: /plugins/mcp-vercel
+          - generic [ref=e485]: "43"
+          - generic [ref=e486]:
+            - generic [ref=e487]: V
+            - generic [ref=e489]:
+              - generic [ref=e490]: Vercel
+              - paragraph [ref=e492]: Integrates with Vercel's serverless infrastructure to provide a lightweight endpoint for AI model interactions and tasks like chatbots, content generation, and data analysis.
+          - generic [ref=e493]: 6.8k
+        - link "44 Uiux Design Uiux Design rules and best practices for Cursor 1.9k" [ref=e494] [cursor=pointer]:
+          - /url: /plugins/uiux-design
+          - generic [ref=e495]: "44"
+          - generic [ref=e500]:
+            - generic [ref=e501]: Uiux Design
+            - paragraph [ref=e503]: Uiux Design rules and best practices for Cursor
+          - generic [ref=e504]: 1.9k
+        - link "45 Rails Rails rules and best practices for Cursor 1.9k" [ref=e505] [cursor=pointer]:
+          - /url: /plugins/rails
+          - generic [ref=e506]: "45"
+          - generic [ref=e511]:
+            - generic [ref=e512]: Rails
+            - paragraph [ref=e514]: Rails rules and best practices for Cursor
+          - generic [ref=e515]: 1.9k
+        - link "46 C Cloudflare Cloudflare MCP Server is a tool designed to deploy, configure, and interact with resources on the Cloudflare developer platform, including Workers, KV storage, R2 storage, and D1 databases, through the Model Context Protocol (MCP). 6.5k" [ref=e516] [cursor=pointer]:
+          - /url: /plugins/mcp-cloudflare
+          - generic [ref=e517]: "46"
+          - generic [ref=e518]:
+            - generic [ref=e519]: C
+            - generic [ref=e521]:
+              - generic [ref=e522]: Cloudflare
+              - paragraph [ref=e524]: Cloudflare MCP Server is a tool designed to deploy, configure, and interact with resources on the Cloudflare developer platform, including Workers, KV storage, R2 storage, and D1 databases, through the Model Context Protocol (MCP).
+          - generic [ref=e525]: 6.5k
+        - link "47 Bootstrap Bootstrap rules and best practices for Cursor 1.8k" [ref=e526] [cursor=pointer]:
+          - /url: /plugins/bootstrap
+          - generic [ref=e527]: "47"
+          - generic [ref=e532]:
+            - generic [ref=e533]: Bootstrap
+            - paragraph [ref=e535]: Bootstrap rules and best practices for Cursor
+          - generic [ref=e536]: 1.8k
+        - link "48 S Stripe Interact with the Stripe API 6.2k" [ref=e537] [cursor=pointer]:
+          - /url: /plugins/mcp-stripe
+          - generic [ref=e538]: "48"
+          - generic [ref=e539]:
+            - generic [ref=e540]: S
+            - generic [ref=e542]:
+              - generic [ref=e543]: Stripe
+              - paragraph [ref=e545]: Interact with the Stripe API
+          - generic [ref=e546]: 6.2k
+        - link "49 Blazor Blazor rules and best practices for Cursor 1.7k" [ref=e547] [cursor=pointer]:
+          - /url: /plugins/blazor
+          - generic [ref=e548]: "49"
+          - generic [ref=e553]:
+            - generic [ref=e554]: Blazor
+            - paragraph [ref=e556]: Blazor rules and best practices for Cursor
+          - generic [ref=e557]: 1.7k
+        - link "50 Notion Integrates with the Notion API to enable database and page management operations, including listing databases, querying and creating pages, updating blocks, and performing searches within Notion workspaces. 5.8k" [ref=e558] [cursor=pointer]:
+          - /url: /plugins/mcp-notion
+          - generic [ref=e559]: "50"
+          - generic [ref=e564]:
+            - generic [ref=e565]: Notion
+            - paragraph [ref=e567]: Integrates with the Notion API to enable database and page management operations, including listing databases, querying and creating pages, updating blocks, and performing searches within Notion workspaces.
+          - generic [ref=e568]: 5.8k
+  - contentinfo [ref=e570]:
+    - generic [ref=e571]:
+      - generic [ref=e572]:
+        - generic [ref=e573]:
+          - heading "Explore" [level=3] [ref=e574]
+          - list [ref=e575]:
+            - listitem [ref=e576]:
+              - link "Plugins" [ref=e577] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e578]:
+              - link "Submit a Plugin" [ref=e579] [cursor=pointer]:
+                - /url: /plugins/new
+        - generic [ref=e580]:
+          - heading "Community" [level=3] [ref=e581]
+          - list [ref=e582]:
+            - listitem [ref=e583]:
+              - link "Members" [ref=e584] [cursor=pointer]:
+                - /url: /members
+            - listitem [ref=e585]:
+              - link "Companies" [ref=e586] [cursor=pointer]:
+                - /url: /members/companies
+        - generic [ref=e587]:
+          - heading "Resources" [level=3] [ref=e588]
+          - list [ref=e589]:
+            - listitem [ref=e590]:
+              - link "Learn Cursor" [ref=e591] [cursor=pointer]:
+                - /url: https://cursor.com/learn?utm_source=cursor-directory&utm_medium=referral&utm_campaign=footer
+            - listitem [ref=e592]:
+              - link "Changelog" [ref=e593] [cursor=pointer]:
+                - /url: https://cursor.com/changelog
+            - listitem [ref=e594]:
+              - link "Documentation" [ref=e595] [cursor=pointer]:
+                - /url: https://docs.cursor.com
+            - listitem [ref=e596]:
+              - link "Blog" [ref=e597] [cursor=pointer]:
+                - /url: https://cursor.com/blog
+        - generic [ref=e598]:
+          - heading "Contribute" [level=3] [ref=e599]
+          - list [ref=e600]:
+            - listitem [ref=e601]:
+              - link "Submit a Plugin" [ref=e602] [cursor=pointer]:
+                - /url: /plugins/new
+            - listitem [ref=e603]:
+              - link "GitHub" [ref=e604] [cursor=pointer]:
+                - /url: https://github.com/cursor/community-plugins
+      - generic [ref=e605]:
+        - img "Cursor Directory" [ref=e607]
+        - generic [ref=e608]:
+          - generic [ref=e609]:
+            - button "Light theme" [ref=e610]
+            - button "Dark theme" [ref=e617]
+            - button "System theme" [ref=e620]
+          - link "X" [ref=e623] [cursor=pointer]:
+            - /url: https://x.com/cursor_ai
+          - link "GitHub" [ref=e626] [cursor=pointer]:
+            - /url: https://github.com/cursor/community-plugins
+  - region "Notifications alt+T"

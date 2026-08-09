@@ -1,0 +1,248 @@
+- generic [ref=e1]:
+  - button "Chat now" [ref=e2] [cursor=pointer]
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Skip to main content" [ref=e5] [cursor=pointer]:
+        - /url: javascript:skipToMain('main');
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - list [ref=e8]:
+            - listitem [ref=e9]:
+              - link "Qlik.com" [ref=e10] [cursor=pointer]:
+                - /url: https://www.qlik.com/?ga-link=qlikhelp-gnav-qlikcom
+            - listitem [ref=e11]:
+              - link "Community" [ref=e12] [cursor=pointer]:
+                - /url: https://community.qlik.com/?ga-link=qlikhelp-gnav-community
+            - listitem [ref=e13]:
+              - link "Learning" [ref=e14] [cursor=pointer]:
+                - /url: https://learning.qlik.com/?ga-link=qlikhelp-gnav-learning
+          - link "Qlik Resources" [ref=e16] [cursor=pointer]:
+            - /url: /en-US/Qlik-Resources.htm
+          - button "English is currently selected. (Language menu)" [ref=e18] [cursor=pointer]: English (Change)
+        - generic [ref=e19]:
+          - navigation [ref=e20]:
+            - list [ref=e21]:
+              - listitem [ref=e22]:
+                - link [ref=e23] [cursor=pointer]:
+                  - /url: /en-US/
+                  - img "Qlik Talend Help home" [ref=e24]
+              - listitem [ref=e25]:
+                - link "Documentation" [ref=e26] [cursor=pointer]:
+                  - /url: javascript:void(0);
+              - listitem [ref=e27]:
+                - link "Onboarding" [ref=e28] [cursor=pointer]:
+                  - /url: javascript:void(0);
+              - listitem [ref=e29]:
+                - link "Videos" [ref=e30] [cursor=pointer]:
+                  - /url: /en-US/videos
+              - listitem [ref=e31]:
+                - link "Migration Center" [ref=e32] [cursor=pointer]:
+                  - /url: /en-US/migration
+              - listitem [ref=e33]:
+                - link "Evaluation Guides" [ref=e34] [cursor=pointer]:
+                  - /url: /en-US/evaluation-guides
+              - listitem [ref=e35]:
+                - link "Playbooks" [ref=e36] [cursor=pointer]:
+                  - /url: javascript:void(0);
+          - form "Search" [ref=e44]:
+            - generic [ref=e46]:
+              - textbox "Search here" [active] [ref=e47]
+              - button "Search button" [ref=e48] [cursor=pointer]
+    - generic [ref=e53]:
+      - button "Hide table of contents" [ref=e55] [cursor=pointer]
+      - complementary [ref=e56]:
+        - generic [ref=e58]:
+          - heading "DID THIS PAGE HELP YOU?" [level=2] [ref=e59]
+          - paragraph [ref=e60]: If you find any issues with this page or its content – a typo, a missing step, or a technical error – please let us know!
+          - paragraph [ref=e61]:
+            - button "Leave your feedback here" [ref=e62] [cursor=pointer]
+      - main [ref=e63]:
+        - generic [ref=e64]:
+          - text: /
+          - generic [ref=e67]:
+            - heading "About Talend components for Jobs" [level=1] [ref=e68]
+            - paragraph [ref=e69]: Use Talend components to build data integration Jobs. Each component is a functional piece that performs a single operation, such as extracting, filtering, or loading data for example.
+            - generic [ref=e70]:
+              - link [ref=e73] [cursor=pointer]:
+                - /url: https://help.qlik.com/talend/en-US/studio-user-guide/8.0/managing-features-in-talend-studio
+                - generic [ref=e74]:
+                  - heading "Install components with the Feature Manager" [level=2] [ref=e75]
+                  - paragraph [ref=e76]: Install and use components that are not installed by default in Talend Studio.
+              - link [ref=e79] [cursor=pointer]:
+                - /url: https://help.qlik.com/talend/en-US/studio-components-availability/8.0/
+                - generic [ref=e80]:
+                  - heading "Talend Studio components availability" [level=2] [ref=e81]
+                  - paragraph [ref=e82]: Browse component details and availability information to choose the right components for your Jobs.
+              - link [ref=e85] [cursor=pointer]:
+                - /url: https://help.qlik.com/talend/en-US/studio-user-guide/8.0/supported-third-party-system-database-business-application-versions
+                - generic [ref=e86]:
+                  - heading "Supported versions of third-party systems" [level=2] [ref=e87]
+                  - paragraph [ref=e88]: Make sure that the system versions, database versions, or business applications versions you are using are compatible with Talend Studio components.
+            - generic [ref=e89]:
+              - link [ref=e92] [cursor=pointer]:
+                - /url: https://help.qlik.com/talend/en-US/data-integration-job-examples/8.0/
+                - generic [ref=e93]:
+                  - heading "Data integration Job examples" [level=2] [ref=e94]
+                  - paragraph [ref=e95]: Learn how to use the tMap component in a Job and find examples that closely relate to your own requirements.
+              - link [ref=e98] [cursor=pointer]:
+                - /url: https://help.qlik.com/talend/en-US/data-matching/8.0/what-is-data-matching
+                - generic [ref=e99]:
+                  - heading "Data matching examples" [level=2] [ref=e100]
+                  - paragraph [ref=e101]: Learn how to find records of the same entity in a dataset using different strategies, such as matching with machine learning.
+              - link [ref=e104] [cursor=pointer]:
+                - /url: https://help.qlik.com/talend/en-US/data-quality-job-examples/8.0/profiling-customer-data
+                - generic [ref=e105]:
+                  - heading "Data quality Job and analysis examples" [level=2] [ref=e106]
+                  - paragraph [ref=e107]: Learn how to profile and cleanse data, and how to monitor data quality as the data continues to change.
+            - paragraph [ref=e108]:
+              - text: If you are looking for Routes components documentation, see
+              - link "Talend Components for Routes" [ref=e109] [cursor=pointer]:
+                - /url: /talend/en-US/mediation-components/8.0/About
+              - text: .
+        - generic [ref=e112]:
+          - generic:
+            - generic [ref=e113]:
+              - heading "Help Resources" [level=2] [ref=e114]
+              - list [ref=e115]:
+                - listitem [ref=e116]:
+                  - link "Qlik Help Videos" [ref=e117] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCFxZPr8pHfZS0n3jxx74rpA
+                - listitem [ref=e118]:
+                  - link "Qlik Developer" [ref=e119] [cursor=pointer]:
+                    - /url: https://qlik.dev/
+                - listitem [ref=e120]:
+                  - link "Qlik Training" [ref=e121] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/services/training
+                - listitem [ref=e122]:
+                  - link "Qlik Learning" [ref=e123] [cursor=pointer]:
+                    - /url: https://learning.qlik.com
+                - listitem [ref=e124]:
+                  - link "Qlik Customer Portal" [ref=e125] [cursor=pointer]:
+                    - /url: https://customerportal.qlik.com/
+                - listitem [ref=e126]:
+                  - link "Qlik Resource Library" [ref=e127] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/resource-library
+            - generic [ref=e128]:
+              - heading "Products" [level=2] [ref=e129]
+              - heading "Data Integration and Quality" [level=3] [ref=e130]
+              - list [ref=e131]:
+                - listitem [ref=e132]:
+                  - link "Qlik Talend" [ref=e133] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/products/qlik-talend-data-integration-and-quality
+                - listitem [ref=e134]:
+                  - link "Qlik Talend Cloud" [ref=e135] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/products/qlik-talend-cloud
+                - listitem [ref=e136]:
+                  - link "Talend Data Fabric" [ref=e137] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/products/talend-data-fabric
+              - heading "Analytics & AI" [level=3] [ref=e138]
+              - list [ref=e139]:
+                - listitem [ref=e140]:
+                  - link "Qlik Cloud Analytics" [ref=e141] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/products/qlik-cloud-analytics
+                - listitem [ref=e142]:
+                  - link "Qlik Answers" [ref=e143] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/products/qlik-answers
+                - listitem [ref=e144]:
+                  - link "Qlik Predict" [ref=e145] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/products/qlik-predict
+                - listitem [ref=e146]:
+                  - link "Qlik Automate" [ref=e147] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/products/qlik-automate
+            - generic [ref=e148]:
+              - heading "Why Qlik?" [level=2] [ref=e149]
+              - list [ref=e150]:
+                - listitem [ref=e151]:
+                  - link "Why Qlik" [ref=e152] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/why-qlik-is-different
+                - listitem [ref=e153]:
+                  - link "Trust and Security" [ref=e154] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/trust
+                - listitem [ref=e155]:
+                  - link "Trust and Privacy" [ref=e156] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/trust/privacy
+                - listitem [ref=e157]:
+                  - link "Trust and AI" [ref=e158] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/trust/ai
+                - listitem [ref=e159]:
+                  - link "Why Qlik for AI" [ref=e160] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/why-qlik-for-ai
+                - listitem [ref=e161]:
+                  - link "Compare Qlik" [ref=e162] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/compare
+                - listitem [ref=e163]:
+                  - link "Featured Technology Partners" [ref=e164] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/products/technology/featured-partners
+                - listitem [ref=e165]:
+                  - link "Data Sources and Targets" [ref=e166] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/products/data-sources
+                - listitem [ref=e167]:
+                  - link "Qlik Regions" [ref=e168] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/regions
+            - generic [ref=e169]:
+              - heading "About Qlik" [level=2] [ref=e170]
+              - list [ref=e171]:
+                - listitem [ref=e172]:
+                  - link "Company" [ref=e173] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/company
+                - listitem [ref=e174]:
+                  - link "Leadership" [ref=e175] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/company/leadership
+                - listitem [ref=e176]:
+                  - link "CSR" [ref=e177] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/company/corporate-responsibility
+                - listitem [ref=e178]:
+                  - link "DEI&B" [ref=e179] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/company/diversity
+                - listitem [ref=e180]:
+                  - link "Academic Program" [ref=e181] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/company/academic-program
+                - listitem [ref=e182]:
+                  - link "Partner Program" [ref=e183] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/partners
+                - listitem [ref=e184]:
+                  - link "Careers" [ref=e185] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/company/careers
+                - listitem [ref=e186]:
+                  - link "Newsroom" [ref=e187] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/company/press-room
+                - listitem [ref=e188]:
+                  - link "Global Office/Contact" [ref=e189] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/contact
+            - generic [ref=e190]:
+              - list [ref=e192]:
+                - listitem [ref=e193]:
+                  - link "https://community.qlik.com/" [ref=e194] [cursor=pointer]:
+                    - /url: https://community.qlik.com/
+                    - text: Qlik Community
+                - listitem [ref=e195]:
+                  - link "Qlik on Twitter" [ref=e196] [cursor=pointer]:
+                    - /url: https://twitter.com/qlik
+                - listitem [ref=e197]:
+                  - link "Qlik on LinkedIn" [ref=e198] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/qlik
+                - listitem [ref=e199]:
+                  - link "Qlik on Facebook" [ref=e200] [cursor=pointer]:
+                    - /url: https://www.facebook.com/qlik
+              - list [ref=e201]:
+                - listitem [ref=e202]:
+                  - link "Legal Agreements" [ref=e203] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/legal/legal-agreements
+                - listitem [ref=e204]:
+                  - link "Product Terms" [ref=e205] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/legal/product-terms
+                - listitem [ref=e206]:
+                  - link "Legal Policies" [ref=e207] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/legal/legal-policies
+                - listitem [ref=e208]:
+                  - link "Privacy & Cookie Notice" [ref=e209] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/legal/privacy-and-cookie-notice
+                - listitem [ref=e210]:
+                  - link "Terms of Use" [ref=e211] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/legal/terms-of-use
+                - listitem [ref=e212]:
+                  - link "Trademarks" [ref=e213] [cursor=pointer]:
+                    - /url: https://www.qlik.com/us/legal/trademarks
+                - listitem [ref=e214]:
+                  - button "Do Not Share My Info" [ref=e215] [cursor=pointer]
+              - paragraph [ref=e216]: Copyright © 1993-2026 QlikTech International AB. All rights reserved.
